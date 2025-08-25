@@ -1,0 +1,14 @@
+1. 杀掉全部python进程
+# taskkill /F /im python.exe
+2. 重装apk
+启动installApp.py
+3. 启动multiTask任务（cmd）
+# start /b run.bat
+4. 启动crm
+python manage.py runserver 124.172.188.65:8000
+5. 启动调度
+python loopActionDispatch.py
+6. 启动监控
+python scheduleTask.py
+7. 启动文件服务器
+python manage.py runserver 124.172.188.65:8001
